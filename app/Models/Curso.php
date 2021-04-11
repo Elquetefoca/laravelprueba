@@ -9,4 +9,9 @@ class Curso extends Model
 {
     use HasFactory;
     protected $guarded = ['status'];
+
+    /*public function getRouteKeyName()
+    //{
+        return 'slug';
+    }*/
 }
